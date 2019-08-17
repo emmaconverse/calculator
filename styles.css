@@ -1,0 +1,116 @@
+body {
+  margin: 17px;
+  font-family: 'SF Pro Display', Helvetica, Arial, sans-serif;
+}
+
+main {
+  background-color: #919191;
+  border-radius: 5px;
+  border: .5px solid #6e6e6e;
+  height: 320px;
+  width: 230px;
+}
+
+.calculator-screen-container {
+  background-color: #919191;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: .5px solid #919191;
+  height: 80px;
+}
+
+.calculator-screen {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 100;
+  margin: 23px 13px 0px 0px;
+  text-align: right;
+}
+
+.button-field {
+  margin-left: .5px;
+}
+
+button {
+  background-color: #e0e0e0;
+  border: none;
+  color: #000000;
+  float: left;
+  font-size: 20px;
+  height: 46.5px;
+  margin: .5px;
+  outline: none;
+  width: 56px;
+}
+
+
+
+.large {
+  width: 113px;
+}
+
+.divide,.multiply,.addition,.subtract,.equals {
+  background-color: #f79331;
+  color: #ffffff;
+  font-size: 33px;
+  font-weight: 100;
+}
+
+.divide:active {
+  background: #e6892d;
+  box-shadow: inset 0 0 0 1px #919191;
+  padding: 2px 0px 2px 2px;
+}
+
+.multiply:active {
+  background: #e6892d;
+  box-shadow: inset 0 0 0 1px #919191;
+}
+
+.addition:active {
+  background: #e6892d;
+  box-shadow: inset 0 0 0 1px #919191;
+}
+
+.subtract:active {
+  background: #e6892d;
+  box-shadow: inset 0 0 0 1px #919191;
+}
+
+.equals:active {
+  background: #e6892d;
+}
+
+.all-clear:active {
+  background: #b9b9b9;
+}
+
+.percent:active {
+  background: #b9b9b9;
+}
+
+.positive-negative:active {
+  background: #b9b9b9;
+}
+
+.decimal:active {
+  background: #b9b9b9;
+}
+
+.number:active {
+  background: #b9b9b9;
+}
+
+.positive-negative,.percent,.all-clear {
+  background-color: #d6d6d6;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 3px;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 3px;
+}
